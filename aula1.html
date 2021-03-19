@@ -11,8 +11,8 @@
          <h3>O {{nome}} é chavaiado demais filho e só tem {{idade}} aninhos </h3>   
 
 
-        <p v-if = 'idade >= 18'>Já pode comer, maior de idade</p>
-        <p v-if = 'idade <= 17'>Pode comer, mas é crime, menor de idade</p>
+        <p v-if = 'idade >= 18'>Pode</p>
+        <p v-if = 'idade <= 17'>Não pode</p>
 
         <ul v-for = 'produto in produtos'>
             <li> {{produto}} </li>
